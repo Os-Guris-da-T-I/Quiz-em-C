@@ -2,18 +2,18 @@
 
 **Integrantes:**
 
-1. Joao Victor Guimaraes Gomes
+1. João Victor Guimarães Gomes
 2. Matheus Augusto Antunes Pentogennis
 3. Gustavo Gabriel Naves Ferreira
 4. Lucas Siqueira Teles
-5. Lucas da Graca Leandro
-6. Gabriel Goncalves Lima
+5. Lucas da Graça Leandro
+6. Gabriel Gonçalves Lima
 
 **Apresentaçao em vídeo:** [COLAR O LINK DO YOUTUBE AQUI]
 
 ## Descrição
 
-Sistema em linguagem C, executado no terminal, para cadastrar e organizar as perguntas que futuramente serão usadas em um quiz de orientação para estudantes do Ensino Medio interessados nos cursos de Ciência da Computação (CC), Engenharia de Software (ES) e Análise e Desenvolvimento de Sistemas (ADS).
+Sistema em linguagem C, executado no terminal, para cadastrar e organizar as perguntas que futuramente serão usadas em um quiz de orientação para estudantes do Ensino Médio interessados nos cursos de Ciência da Computação (CC), Engenharia de Software (ES) e Análise e Desenvolvimento de Sistemas (ADS).
 
 Nesta etapa o programa somente gerencia o banco de perguntas. Não aplica o quiz nem calcula resultados.
 
@@ -73,7 +73,7 @@ Exemplo:
 
 - Opção do menu e código precisam ser numeros inteiros validos (o código deve ser positivo).
 - Não é permitido cadastrar código repetido.
-- Textos vazios (ou só com espacos) são rejeitados.
+- Textos vazios (ou só com espaços) são rejeitados.
 - O caractere `;` e rejeitado nos textos, pois separa os campos do CSV.
 - Curso e resposta aceitam maiusculas ou minusculas (`cc`, `sim`), mas só são gravados como `CC/ES/ADS` e `SIM/NAO`.
 - A consulta por categoria ignora diferença entre maiúsculas e minúsculas.
