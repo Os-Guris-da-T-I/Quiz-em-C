@@ -9,13 +9,13 @@
 5. Lucas da Graca Leandro
 6. Gabriel Goncalves Lima
 
-**Apresentacao em video:** [COLAR O LINK DO YOUTUBE AQUI]
+**Apresentaçao em vídeo:** [COLAR O LINK DO YOUTUBE AQUI]
 
-## Descricao
+## Descrição
 
-Sistema em linguagem C, executado no terminal, para cadastrar e organizar as perguntas que futuramente serao usadas em um quiz de orientacao para estudantes do Ensino Medio interessados nos cursos de Ciencia da Computacao (CC), Engenharia de Software (ES) e Analise e Desenvolvimento de Sistemas (ADS).
+Sistema em linguagem C, executado no terminal, para cadastrar e organizar as perguntas que futuramente serão usadas em um quiz de orientação para estudantes do Ensino Medio interessados nos cursos de Ciência da Computação (CC), Engenharia de Software (ES) e Análise e Desenvolvimento de Sistemas (ADS).
 
-Nesta etapa o programa somente gerencia o banco de perguntas. Nao aplica o quiz nem calcula resultados.
+Nesta etapa o programa somente gerencia o banco de perguntas. Não aplica o quiz nem calcula resultados.
 
 ## Arquivos
 
@@ -69,18 +69,18 @@ Exemplo:
 - Cursos permitidos: `CC`, `ES`, `ADS`
 - Respostas permitidas: `SIM`, `NAO`
 
-## Validacoes
+## Validações
 
-- Opcao do menu e codigo precisam ser numeros inteiros validos (o codigo deve ser positivo).
-- Nao e permitido cadastrar codigo repetido.
-- Textos vazios (ou so com espacos) sao rejeitados.
+- Opção do menu e código precisam ser numeros inteiros validos (o código deve ser positivo).
+- Não é permitido cadastrar código repetido.
+- Textos vazios (ou só com espacos) são rejeitados.
 - O caractere `;` e rejeitado nos textos, pois separa os campos do CSV.
-- Curso e resposta aceitam maiusculas ou minusculas (`cc`, `sim`), mas so sao gravados como `CC/ES/ADS` e `SIM/NAO`.
-- A consulta por categoria ignora diferenca entre maiusculas e minusculas.
-- Textos maiores que o limite do campo sao rejeitados, sem deixar lixo na entrada.
-- Erros ao abrir arquivos e ao substituir o CSV sao informados ao usuario.
-- Linhas invalidas encontradas no CSV (por exemplo, editadas a mao) sao ignoradas nas listagens e consultas, e preservadas ao atualizar ou excluir, para nao haver perda de dados.
+- Curso e resposta aceitam maiusculas ou minusculas (`cc`, `sim`), mas só são gravados como `CC/ES/ADS` e `SIM/NAO`.
+- A consulta por categoria ignora diferença entre maiúsculas e minúsculas.
+- Textos maiores que o limite do campo são rejeitados, sem deixar lixo na entrada.
+- Erros ao abrir arquivos e ao substituir o CSV sao informados ao usuário.
+- Linhas invalidas encontradas no CSV (por exemplo, editadas a mão) são ignoradas nas listagens e consultas, e preservadas ao atualizar ou excluir, para não haver perda de dados.
 
-## Observacao
+## Observação
 
-As mensagens do programa nao usam acentos para evitar problemas de codificacao no terminal do Windows.
+As mensagens do programa não usam acentos para evitar problemas de codificacao no terminal do Windows/Linux.
