@@ -9,7 +9,7 @@
 5. Lucas da Graça Leandro
 6. Gabriel Gonçalves Lima
 
-**Apresentaçao em vídeo:** [COLAR O LINK DO YOUTUBE AQUI]
+**Apresentaçao em video:** [COLAR O LINK DO YOUTUBE AQUI]
 
 ## Descrição
 
